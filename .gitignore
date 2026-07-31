@@ -1,0 +1,34 @@
+# Target directories (Java/Maven)
+**/target/
+**/*.class
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# Eclipse / IntelliJ / VSCode project files
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# Node / Frontend dependencies and builds
+**/node_modules/
+**/build/
+**/dist/
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
